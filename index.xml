@@ -30,5 +30,15 @@ De inschrijving</description>
       <description>Heb je nog vragen over het straatfeest, of wil je om een andere reden met ons in contact komen? Stuur ons dan een berichtje!</description>
     </item>
     
+    <item>
+      <title>kosten</title>
+      <link>https://feest.adriaanstraat.nl/kosten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://feest.adriaanstraat.nl/kosten/</guid>
+      <description>Om de inkopen te kunnen doen voor het straatfeest vragen we een bescheiden eigen bijdrage:
+- Per volwassene € 10 - Per kind € 5</description>
+    </item>
+    
   </channel>
 </rss>
