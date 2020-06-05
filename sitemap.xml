@@ -36,6 +36,12 @@
   </url>
   
   <url>
+    <loc>https://feest.adriaanstraat.nl/aanmelden/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://feest.adriaanstraat.nl/categories/</loc>
     <priority>0</priority>
   </url>
