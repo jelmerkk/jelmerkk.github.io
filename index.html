@@ -1,248 +1,241 @@
-<!DOCTYPE html>
-<html lang="nl-NL">
+<!doctype html>
+<html lang="nl">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Straatfeest Adriaanstraat | Straatfeest Adriaanstraat</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.55.6" />
-    
-    
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    
+  <meta charset="utf-8">
+<title>Straatfeest Adriaanstraat</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
-    
-      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
-    
 
-    
+<meta name="generator" content="Hugo 0.55.6" />
+<meta itemprop="name" content="Straatfeest Adriaanstraat">
+<meta itemprop="description" content="Corona-proof straatfeest op 26 september 2020!">
 
-    
-      
-
-    
-
-    
-    
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Straatfeest Adriaanstraat" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="Straatfeest Adriaanstraat" />
-      
-    
-    
-    <meta property="og:title" content="Straatfeest Adriaanstraat" />
+<meta property="og:title" content="Straatfeest Adriaanstraat" />
 <meta property="og:description" content="Corona-proof straatfeest op 26 september 2020!" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://feest.adriaanstraat.nl/" />
 
 <meta property="og:updated_time" content="2020-06-05T00:00:00&#43;00:00"/>
-
-<meta itemprop="name" content="Straatfeest Adriaanstraat">
-<meta itemprop="description" content="Corona-proof straatfeest op 26 september 2020!">
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Straatfeest Adriaanstraat"/>
 <meta name="twitter:description" content="Corona-proof straatfeest op 26 september 2020!"/>
 
-	
-  </head>
+</head>
 
-  <body class="ma0 avenir bg-near-white">
-
+  <body>
     
 
+  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
+    <p style="text-align:center;">This message, related to the development of the theme, only displays on the
+      <code>localhost</code> homepage to notify you of any important theme changes.</p>
+      <hr>
+      <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>Version 1.1.0 - May 18, 2020<i class="fas fa-exclamation-triangle"></i></h5>
+    <p>With this version, the theme has fully implemented <strong>static search</strong> using
+<code>lunr.js</code>. That being said, a few modifications were necessary to implement this
+feature.</p>
+
+<p>To utilize this, or future version of <em>Hugo Future Imperfect Slim</em>, please make
+the following changes:</p>
+
+<ol>
+<li><p>Add the following to your <code>config.toml</code> before <code>[params]</code>:</p>
+
+<pre><code>...
+disableLanguages = [&quot;&quot;]
+
+[outputs]
+  home = [&quot;html&quot;, &quot;json&quot;]
+
+[params]
+...
+</code></pre></li>
+
+<li><p>Remove the underscore from all <code>about</code> and <code>contact</code> page file names:
+<code>_index.md --&gt; index.md</code></p></li>
+
+<li><p>Add <code>layout = &quot;about&quot;</code> or <code>layout = &quot;contact&quot;</code> to all of the files you just
+just adjusted the file names for.</p></li>
+</ol>
+
+<p>While I realize this is inconvenient, I hope that it is worth it to you in the
+long run. Thanks for using the theme, and feel free to submit issues as needed.</p>
+
+    <div style="text-align:center;">
+      <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
+    </div>
+    <script>
+      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '1.1.0') {
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+      function removeBox() {
+        window.localStorage.setItem('HFIS-version', '1.1.0');
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+    </script>
+  </div>
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          
+            <a href="/programma/" class="nav link">programma</a>
+          
+        
+      
+        
+          
+          
+            <a href="/kosten/" class="nav link">kosten</a>
+          
+        
+      
+        
+          
+          
+            <a href="/aanmelden/" class="nav link">aanmelden</a>
+          
+        
+      
+        
+          
+          
+            <a href="/post/" class="nav link">berichten</a>
+          
+        
+      
+        
+          
+          
+            <a href="/contact/" class="nav link">contact</a>
+          
+        
+      
+        
+          
+          
+            <a href="/post/" class="nav link">berichten</a>
+          
+        
+      
+      
+      
+    </menu>
+    
+    
+    
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
   
   
-  <header class="cover bg-top" style="background-image: url('https://feest.adriaanstraat.nl/images/burendag.jpg');">
-    <div class="bg-black-60">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  
+  <header>
+    
+  </header>
+  <main>
+    
+  </main>
+  
+</section>
+
+      <main id="site-main">
+        
+  
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/post/20200605/">Het straatfeest gaat door!</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2020-06-05 00:00:00 &#43;0000 UTC">
+      
+    </time>
+    <span class="author"></span>
+    
+  </div>
+</header>
+
+  
+
+  
+  <p>Afgelopen week hebben we overlegd met de organisatie van het straatfeest. We denken dat we - binnen de richtlijnen - een gezellig feest kunnen organiseren. We gaan dus van start met de voorbereidingen en hopen op jullie aanwezigheid!<br />
+<br />
+De inschrijving is <a href="https://feest.adriaanstraat.nl/aanmelden/">open</a>!</p>
+  <footer>
+    <a href="/post/20200605/" class="button big"></a>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+    
+      <li>None</li>
+    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+    
+      
+        
+          <li><a class="article-terms-link" href="/tags/nieuws/">nieuws</a></li>
+        
+      
+    
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+</article>
+
+  
+  
+<div class="pagination">
+  
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+
+  
+
+  
+</section>
+
+      <footer id="site-footer">
+  
+  <p class="copyright">
+    
+      &copy; 2020
       
         Straatfeest Adriaanstraat
       
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/programma/" title="programma page">
-              programma
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/kosten/" title="kosten page">
-              kosten
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/aanmelden/" title="aanmelden page">
-              aanmelden
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/post/" title="berichten page">
-              berichten
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/contact/" title="contact page">
-              contact
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/post/" title="berichten page">
-              berichten
-            </a>
-          </li>
-          
-        </ul>
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-  </div>
-</nav>
-
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Straatfeest Adriaanstraat
-        </h1>
-        
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            Corona-proof straatfeest op 26 september 2020!
-          </h2>
-        
-      </div>
-    </div>
-  </header>
-
-
-    <main class="pb7" role="main">
-      
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    <p>Beste buurtbewoners,<br />
-<br />
-Ook in dit knotsgekke jaar willen we op Nationale Burendag weer samenkomen voor een gezellig straatfeest - uiteraard binnen de dan geldende regels.<br />
-<br />
-Hoe precies? Dat weten we nog niet. Maar we willen wel graag dat jullie er weer zijn!</p>
-
-  </article>
-  
-  
-  
-  
-  
-  
-  
+    . <br>
     
-    
-
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      
-       
-          <h1 class="flex-none">
-            Recente berichten
-          </h1>
-        
-
-      
-
-      <section class="w-100 mw8">
-        
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://feest.adriaanstraat.nl/post/20200605/" class="db grow">
-            <img src="https://feest.adriaanstraat.nl/images/zon.jpg" class="img" alt="image from Het straatfeest gaat door!">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://feest.adriaanstraat.nl/post/20200605/" class="color-inherit dim link">
-            Het straatfeest gaat door!
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Afgelopen week hebben we overlegd met de organisatie van het straatfeest. We denken dat we - binnen de richtlijnen - een gezellig feest kunnen organiseren. We gaan dus van start met de voorbereidingen en hopen op jullie aanwezigheid!
-De inschrijving is open!
-        </div>
-          <a href="https://feest.adriaanstraat.nl/post/20200605/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-      </section>
-
-      
-
-      </div>
-  
-
-    </main>
-    <footer class="bg-silver bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://feest.adriaanstraat.nl" >
-    &copy;  Straatfeest Adriaanstraat 2020 
-  </a>
-    <div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
+  </p>
 </footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
-    
-
-  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
-
-
+      
+    </div>
   </body>
 </html>
