@@ -71,18 +71,18 @@
   </url>
   
   <url>
-    <loc>http://jelmerkk.github.io/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://jelmerkk.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://jelmerkk.github.io/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://jelmerkk.github.io/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
