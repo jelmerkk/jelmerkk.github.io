@@ -6,10 +6,19 @@
     <description>Recent content on Straatfeest Adriaanstraat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-NL</language>
-    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://feest.adriaanstraat.nl/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nieuwe maatregelen - Geen BBQ, wel borrel</title>
+      <link>https://feest.adriaanstraat.nl/post/20200821/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://feest.adriaanstraat.nl/post/20200821/</guid>
+      <description>Op 18 augustus zijn strengere maatregelen aangekondigd om de corona-verspreiding verder tegen te gaan. Naar aanleiding hiervan hebben we besloten het straatfeest 2020 nogal om te gooien. Er is geen BBQ meer, wel gaan we nog - op afstand - met elkaar borrelen. Je hoeft je hiervoor niet aan te melden, we brengen ook geen kosten in rekening. We nemen contact op met een ieder die zich heeft ingeschreven en al had betaald, uiteraard krijgt iedereen zijn/haar geld terug.</description>
+    </item>
     
     <item>
       <title>Het straatfeest gaat door!</title>
@@ -27,7 +36,7 @@ De inschrijving is open!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://feest.adriaanstraat.nl/aanmelden/</guid>
-      <description>Om de inkopen goed te kunnen inschatten willen we je vragen om je zo vroeg mogelijk aan te melden voor het straatfeest. Je ontvangt ook direct een betaalverzoek, het helpt ons enorm wanneer je direct betaalt. Alvast dank!</description>
+      <description>Omdat we de BBQ niet door laten gaan hoef je je dit jaar ook niet aan te melden. Kom gewoon vanaf 15u met de kids op de luchtkussens spelen, en neem vanaf 16u je eigen borrel mee! //</description>
     </item>
     
     <item>
@@ -56,7 +65,7 @@ De inschrijving is open!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://feest.adriaanstraat.nl/programma/</guid>
-      <description>          15:00  Stormbaan voor kids &amp;lt; 16 jaar     (&amp;amp; apart springkussen voor de kleintjes)   16:00  Anderhalvemeterborrel   17:00  De Grote Adriaanstraat Gezinnen Quiz   18:00  BBQ    </description>
+      <description>15:00  Stormbaan voor kids &amp;lt; 15 jaar     (&amp;amp; apart springkussen voor de kleintjes)   16:00  Anderhalvemeterborrel    Ivm de corona-maatregelen geen BBQ dit jaar. Wij zorgen - naast de stormbaan en de springkussens - voor statafels om op veilige afstand te kunnen borrelen. Je hoeft je hiervoor niet aan te melden, maar we rekenen er dan ook op dat je je eigen borrel meeneemt.</description>
     </item>
     
   </channel>
