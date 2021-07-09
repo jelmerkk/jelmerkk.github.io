@@ -36,7 +36,7 @@ De inschrijving is open!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://feest.adriaanstraat.nl/aanmelden/</guid>
-      <description>Omdat we de BBQ niet door laten gaan hoef je je dit jaar ook niet aan te melden. Kom gewoon vanaf 15u met de kids op de luchtkussens spelen, en neem vanaf 16u je eigen borrel mee!  --</description>
+      <description> </description>
     </item>
     
     <item>
@@ -49,12 +49,24 @@ De inschrijving is open!</description>
     </item>
     
     <item>
+      <title>kosten</title>
+      <link>https://feest.adriaanstraat.nl/kosten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://feest.adriaanstraat.nl/kosten/</guid>
+      <description>Om de inkopen te kunnen doen voor het straatfeest vragen we een bescheiden eigen bijdrage:
+ Per volwassene € 12
+ Per kind € 6  </description>
+    </item>
+    
+    <item>
       <title>programma</title>
       <link>https://feest.adriaanstraat.nl/programma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://feest.adriaanstraat.nl/programma/</guid>
-      <description>15:00  Stormbaan voor kids &amp;lt; 15 jaar     (&amp;amp; apart springkussen voor de kleintjes)   16:00  Anderhalvemeterborrel    Ivm de corona-maatregelen geen BBQ dit jaar. Wij zorgen - naast de stormbaan en de springkussens - voor statafels om op veilige afstand te kunnen borrelen. Je hoeft je hiervoor niet aan te melden, maar we rekenen er dan ook op dat je je eigen borrel meeneemt.</description>
+      <description>15:00 Stormbaan voor kids &amp;lt; 16 jaar
+(apart springkussen voor de kleintjes)   16:00 Anderhalvemeterborrel   17:00 De Grote Adriaanstraat Gezinnen Quiz   18:00 BBQ    Uiteraard onder voorbehoud van corona-maatregelen&amp;hellip;</description>
     </item>
     
   </channel>
